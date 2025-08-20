@@ -43,3 +43,8 @@ select_all_bears_ordered_by_temperament = """
     FROM bears
     ORDER BY temperament ASC;
 """
+select_all_bears_names_and_orders_in_alphabetical_order = """
+    SELECT name
+    FROM bears
+    ORDER BY name ASC;
+"""
